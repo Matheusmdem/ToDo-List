@@ -1,0 +1,91 @@
+.form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: -3.8rem;
+}
+
+.textarea {
+  width: 46rem;
+  height: 3.4rem;
+  background: var(--gray500);
+  border: 1px solid var(--gray700);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--gray100);
+  resize: none;
+}
+
+.button {
+  height: 3.4rem;
+  width: 5.6rem;
+  background: var(--blueDark);
+  color: var(--gray100);
+  border: none;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.button:not(:disabled):hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  filter: brightness(0.7);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  border-bottom: 1px solid var(--gray400);
+  padding-bottom: 1.5rem;
+}
+
+.created {
+  display: flex;
+  align-items: center;
+  color: var(--blue);
+  gap: 0.5rem;
+}
+
+.done {
+  display: flex;
+  align-items: center;
+  color: var(--purple);
+  gap: 0.5rem;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  background: var(--gray400);
+  color: var(--gray100);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.tasksEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 0.5rem;
+  color: var(--gray300);
+}
+
+.tasksFull {
+  display: none;
+}
