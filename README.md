@@ -14,6 +14,7 @@ Conceitos:
 - Listas e chaves no ReactJS
 - Propriedades
 - Componentização
+- LocalStorage
 
 Tecnologias:
 
